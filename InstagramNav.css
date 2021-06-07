@@ -1,0 +1,198 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: black;
+    color: white;
+}
+/* 
+.container{
+    display: none;
+} */
+
+
+.navbarContainer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: nowrap;
+    height: 40px;
+    margin: 5px 0 5px 0;
+}
+.navName{
+    margin: 0 3vh 0 3vw;
+    flex-grow: 3;
+    font-size: 20px;
+    white-space: nowrap;
+    overflow: hidden;
+    font-family: 'Rubik', sans-serif;
+    text-overflow: ellipsis;
+}
+.navbarContainerRight{
+    flex-grow: 1;
+    display: grid;
+    grid-template-columns: auto auto;
+    float: right;
+    justify-content: right;
+    align-items: center;
+}
+.navAddContainer{
+    border: 2px solid white;
+    border-radius: 7px;
+    padding: 3px;
+    height: 27px;
+    width: 27px;
+    margin: 5.25px 3vw 5.25px 3vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.navAdd span{
+    font-size: 20px;
+    font-weight: bolder;
+}
+.navTripleBarContainer{
+    padding: 5px;
+    margin: 0 3vw 0 3vw;
+}
+.navTripleBarBar{
+    width: 25px;
+    height: 2.5px;
+    background-color: white;
+    margin: 5px;
+}
+
+
+
+.picbarContainer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.picbarImageContainer{
+    padding: 2px;
+    border: 1.5px solid gray;
+    display: inline-block;
+    border-radius: 100%;
+    margin: 2vw 0 0 2vw;
+}
+.picbarImage{
+    width: 22vw;
+    height: 22vw;
+    border-radius: 100%;
+    background: black url('image.jfif') no-repeat center center / cover;
+}
+.picbarContainerRight{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 3;
+    width: 100%;
+}
+.picbarData{
+    flex-grow: 1;
+    text-align: center;
+    width: 33.33%;
+    margin: 0 1vw 0 0;
+}
+.picbarDataText{
+    overflow: hidden;
+    white-space: nowrap;
+    font-family: 'Rubik', sans-serif;
+    text-overflow: ellipsis;
+    font-size: .8em;
+}
+.picbarDataTextDigit{
+    overflow: hidden;
+    white-space: nowrap;
+    font-family: 'Rubik', sans-serif;
+    text-overflow: ellipsis;
+    font-size: .8em;
+}
+
+
+.introbarContainer{
+    padding: 8px;
+    width: 100%;
+}
+.introbarName{
+    overflow: hidden;
+    text-overflow: clip;
+    font-family: 'Rubik', sans-serif;
+}
+.introbarWebsite{
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    color: blue;
+    margin: 4px 0 0 0;
+}
+.introbarWebsite a{
+    text-decoration: none;
+    color: blue;
+}
+.introbarBio{
+    margin: 4px 0 0 0;
+}
+.introbarBio pre{
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.introbarBio button{
+    border: none;
+    text-decoration: none;
+    color: gray;
+    display: none;
+}
+
+
+
+
+.containerAdd{
+    width: 100%;
+    height: 50vh;
+    background-color: rgb(36, 32, 32);
+    position: absolute;
+    top: 50vh;
+    border-radius: 15px;
+    display: none;
+}
+.containerAddNav{
+    text-align: center;
+    background-color:  rgb(36, 32, 32);
+    padding: 10px 0;
+    display: grid;
+    border-radius: 15px 15px 0 0;
+    justify-content: center;
+    border-bottom: 1px solid gray;
+    padding: 10px 0 0 10px;
+}
+.containerAddNavBar{
+    width: 10vw;
+    height: 1vw;
+    border-radius: 20%;
+    background-color: rgb(109, 105, 105);
+    margin: auto;
+}
+.containerAddNavText{
+    background-color:  rgb(36, 32, 32);
+    font-family: 'Rubik', sans-serif;
+    margin-top: 15px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.containerAddBody{
+    display: grid;
+    grid-gap: 7vw;
+    justify-content: left;
+    background-color:  rgb(36, 32, 32);
+    padding: 3vw;
+}
+.containerAddBodyItem{
+    font-family: 'Rubik', sans-serif;
+    background-color:  rgb(36, 32, 32);
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}

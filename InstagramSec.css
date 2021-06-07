@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: black;
+    color: white;
+}
+
+
+.sectionButtonContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sectionButtonFollow{
+    flex-grow: 1;
+    text-align: center;
+    border: none;
+    border-radius: 4px;
+    padding: 5px;
+    font-family: 'Rubik', sans-serif;
+    margin: 15px 1vw 0 2vw;
+    background-color: rgb(0, 0, 255);
+}
+.sectionButtonEdit{
+    flex-grow: 1;
+    text-align: center;
+    border: 1px solid gray;
+    border-radius: 4px;
+    padding: 5px;
+    font-family: 'Rubik', sans-serif;
+    margin: 15px 2vw 0 1vw;
+}
+
+
+.sectionStoryContainer{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    overflow: scroll;
+    padding: 12px 1vw;
+}
+.sectionStorySubContainer{
+    margin: .2vw;
+}
+.sectionStoryText{
+    width: 20vw;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    text-align: center;
+    margin: 0 0 0 2vw;
+}
+.sectionStory{
+    padding: 2px;
+    border: 1.5px solid gray;
+    border-radius: 100%;
+    margin: 2vw;
+}
+.sectionStory div{
+    width: 18vw;
+    height: 18vw;
+    border-radius: 100%;
+    background: white url('image.jfif') no-repeat center center / cover;
+}
